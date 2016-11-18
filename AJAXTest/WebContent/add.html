@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script
+		  src="https://code.jquery.com/jquery-2.2.4.min.js"
+		  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		  crossorigin="anonymous"></script>
+		<script src = js/add.js></script>
+	</head>
+	<body>
+		<!-- 서버프로그램이 어디에있는지 알려주기위해 사용하는 태그 <form>은 name을 사용하는 것과 관련있음 -->
+		<!-- 로컬주소 / 컨텍스트 이름 / 사용할 함수(?) 클래스(?)이름 -->
+		<input type="text" id="input1"> + <input type = "text" id="input2"><br>
+		<input type = "button" value="서버로 전송" onclick="callServer()"><br>
+		<!-- submit이란 속성은 form이라는 태그에서만 유효 -->
+		계산된 결과는 : <span>여기에 결과가 나옵니다.</span>
+	</body>
+</html>
